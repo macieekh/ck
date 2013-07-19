@@ -21,8 +21,9 @@
   </div>
   <div class="field">
     <%= f.label :solution %><br />
-    <%= text_area_tag(:solution, "Hi, nice site", size: "44x6") %>
-    <!-- <%= f.text_field :solution %> -->
+    <!-- <%= text_area_tag(:solution, "Hi, nice site", size: "44x6") %> -->
+    <!-- <%= text_area_tag(size: "44x6") %> -->
+    <%= f.text_field :solution %>
   </div>
   <div class="actions">
     <%= f.submit "Dodaj wpis" %>
